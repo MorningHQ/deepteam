@@ -1,0 +1,28 @@
+name: Feature
+description: A request, idea, or new functionality.
+title: "[Feature]: "
+type: Feature
+projects: ["MorningHQ/2"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What shipping this enables.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why this should exist now.
+    validations:
+      required: false
+  - type: textarea
+    id: dod
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ]
+    validations:
+      required: true
