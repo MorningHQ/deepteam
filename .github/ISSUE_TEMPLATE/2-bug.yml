@@ -1,13 +1,8 @@
 name: Bug
 description: An unexpected problem or behavior.
-title: "[Bug]: "
 type: Bug
 projects: ["MorningHQ/2"]
 body:
-  - type: textarea
-    id: notes
+  - type: markdown
     attributes:
-      label: Notes
-      description: Optional. What happened, expected, impact, and sanitized repro can be added later. No secrets or customer PII.
-    validations:
-      required: false
+      value: Title is enough. Add details later. No secrets or customer PII.
