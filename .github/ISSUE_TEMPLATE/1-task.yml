@@ -1,13 +1,8 @@
 name: Task
-description: A specific piece of work to track on the Martian Security Board.
-title: "[Task]: "
+description: A specific piece of work on the Martian Security Board.
 type: Task
 projects: ["MorningHQ/2"]
 body:
-  - type: textarea
-    id: notes
+  - type: markdown
     attributes:
-      label: Notes
-      description: Optional. Add outcome, next action, or definition of done when you have them.
-    validations:
-      required: false
+      value: Title is enough. Add details later. No secrets or customer PII.
