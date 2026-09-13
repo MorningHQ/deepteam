@@ -4,33 +4,10 @@ title: "[Bug]: "
 type: Bug
 projects: ["MorningHQ/2"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Sanitize evidence. No secrets, customer PII, or unredacted exploit traces.
   - type: textarea
-    id: what
+    id: notes
     attributes:
-      label: What happened
-    validations:
-      required: true
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected
-    validations:
-      required: true
-  - type: textarea
-    id: impact
-    attributes:
-      label: Impact
-      description: What changes in the system or world if this ships unfixed (exposure, persistence, irreversibility).
-    validations:
-      required: true
-  - type: textarea
-    id: repro
-    attributes:
-      label: Repro / evidence
-      description: Sanitized steps or traces.
+      label: Notes
+      description: Optional. What happened, expected, impact, and sanitized repro can be added later. No secrets or customer PII.
     validations:
       required: false
