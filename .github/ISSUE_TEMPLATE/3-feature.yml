@@ -1,13 +1,8 @@
 name: Feature
 description: A request, idea, or new functionality.
-title: "[Feature]: "
 type: Feature
 projects: ["MorningHQ/2"]
 body:
-  - type: textarea
-    id: notes
+  - type: markdown
     attributes:
-      label: Notes
-      description: Optional. Outcome and definition of done can be filled in later.
-    validations:
-      required: false
+      value: Title is enough. Add details later. No secrets or customer PII.
