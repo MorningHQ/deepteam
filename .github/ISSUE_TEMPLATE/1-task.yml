@@ -4,37 +4,10 @@ title: "[Task]: "
 type: Task
 projects: ["MorningHQ/2"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Track progress on the [Martian Security Board](https://github.com/orgs/MorningHQ/projects/2). Do not include secrets, customer PII, or unredacted exploit traces.
   - type: textarea
-    id: outcome
+    id: notes
     attributes:
-      label: Outcome
-      description: What done looks like.
-    validations:
-      required: true
-  - type: textarea
-    id: context
-    attributes:
-      label: Context
-      description: Why this work exists. Link a vault note if there is one.
+      label: Notes
+      description: Optional. Add outcome, next action, or definition of done when you have them.
     validations:
       required: false
-  - type: textarea
-    id: next_action
-    attributes:
-      label: Next action
-      description: The single next concrete step.
-    validations:
-      required: true
-  - type: textarea
-    id: dod
-    attributes:
-      label: Definition of done
-      description: Completion criteria.
-      value: |
-        - [ ]
-    validations:
-      required: true
