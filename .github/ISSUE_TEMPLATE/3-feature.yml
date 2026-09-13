@@ -5,24 +5,9 @@ type: Feature
 projects: ["MorningHQ/2"]
 body:
   - type: textarea
-    id: outcome
+    id: notes
     attributes:
-      label: Outcome
-      description: What shipping this enables.
-    validations:
-      required: true
-  - type: textarea
-    id: context
-    attributes:
-      label: Context
-      description: Why this should exist now.
+      label: Notes
+      description: Optional. Outcome and definition of done can be filled in later.
     validations:
       required: false
-  - type: textarea
-    id: dod
-    attributes:
-      label: Definition of done
-      value: |
-        - [ ]
-    validations:
-      required: true
